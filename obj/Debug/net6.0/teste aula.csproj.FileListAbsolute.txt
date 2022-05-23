@@ -1,0 +1,15 @@
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\teste aula.exe
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\teste aula.deps.json
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\teste aula.runtimeconfig.json
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\teste aula.dll
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\ref\teste aula.dll
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\bin\Debug\net6.0\teste aula.pdb
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.csproj.AssemblyReference.cache
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.AssemblyInfoInputs.cache
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.AssemblyInfo.cs
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.csproj.CoreCompileInputs.cache
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.dll
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\ref\teste aula.dll
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.pdb
+C:\Users\tiago\OneDrive\Área de Trabalho\teste aula\obj\Debug\net6.0\teste aula.genruntimeconfig.cache
