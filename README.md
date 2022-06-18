@@ -23,6 +23,7 @@
 <h3>Project Planning</h3>
 <ul>
   <li>The project was conducted for 8 weeks as one of the Back-end course requirements.</li>
+  <li>Project was broken into different branches on GIT for a better code organization.</li>
 </ul>
 
 <h3>Installation Requirements</h3>
