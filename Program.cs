@@ -42,7 +42,7 @@ do
             novaPF.nome = "Tiago de Almeida";
             novaPF.dataNasc = new DateTime(2000, 01, 01);
             novaPF.cpf = "1234567890";
-            novaPF.rendimento = 3500.5f;
+            novaPF.rendimento = 3700.5f;
 
             novoEndPf.logradouro = "Avenida Rio Branco";
             novoEndPf.numero = 31;
@@ -54,16 +54,19 @@ do
             Console.Clear();
             Console.WriteLine(@$"
 Nome: {novaPF.nome}
-Maior de Idade: {metodosPf.validarDataNasc(novaPF.dataNasc)}
-Enredeço: {novaPF.endereco.logradouro}, {novaPF.endereco.numero}, {novaPF.endereco.complemento}
-Endereço comercial: {novaPF.endereco.endComercial}
+Idade: {(DateTime.Now.Year -  novaPF.dataNasc.Year + " anos")}
+Maior de Idade: {(metodosPf.validarDataNasc(novaPF.dataNasc) ? "sim" : "Não")}
+Endereço: {novaPF.endereco.logradouro}, {novaPF.endereco.numero}, {novaPF.endereco.complemento}
+Endereço comercial: {(novaPF.endereco.endComercial ? "sim" : "não")}
+Imposto devido: {metodosPf.PagarImposto(novaPF.rendimento).ToString("C")}
 ");
+            
 
             Console.ForegroundColor = ConsoleColor.Blue;
             System.Console.Write("Aperte ENTER para continuar");
             Console.ReadLine();
 
-            break;            
+            break;
 
         case "2":
             PessoaJuridica novaPj = new PessoaJuridica();
@@ -86,9 +89,11 @@ Endereço comercial: {novaPF.endereco.endComercial}
             Console.WriteLine(@$"
 Nome: {novaPj.nome}
 Razão Social: {novaPj.razaoSocial}
-CNPJ: {novaPj.cnpj}, Válido: {metodosPj.validarCnpj(novaPj.cnpj)}
+CNPJ: {novaPj.cnpj}, Válido: {(metodosPj.validarCnpj(novaPj.cnpj) ? "sim": "não")}
+Endereço Comercial: {(novaPj.endereco.endComercial ? "sim" : "não")}
 Endereço: {novaPj.endereco.logradouro}, Nº {novaPj.endereco.numero}
 complemento: {novaPj.endereco.complemento}
+Imposto devido: {metodosPj.PagarImposto(novaPj.rendimento).ToString("C")}
 ");
 
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -110,7 +115,7 @@ complemento: {novaPj.endereco.complemento}
             
                  ");
             Thread.Sleep(1500);
-            LoadingBar("Finalizando ", 500, 20);           
+            LoadingBar("Finalizando ", 500, 20);
 
             break;
 
